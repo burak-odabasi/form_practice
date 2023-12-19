@@ -8,49 +8,73 @@
   <body>
     <header><h1>Forms</h1></header>
     <main>
-      <form action="submit.html" method="get">
-        <label>
-          Email
+      <section>
+        <h2>Sign Up</h2>
+        <form action="submit.html" method="get">
+          <label>
+            Email
+            <br />
+            <input type="email" name="email" placeholder="user@email.com" />
+          </label>
+
+          <br /><br />
+
+          <label>
+            Password
+            <br />
+            <input type="password" name="password" />
+          </label>
+
+          <br /><br />
+
+          <label>
+            Confirm Password
+            <br />
+            <input type="password" name="password" />
+          </label>
+
+          <br /><br />
+
+          <label>
+            Phone Number
+            <br />
+            <input type="tel" name="phone no:" placeholder="+12 345 678 9123" />
+          </label>
+
+          <br /><br />
+
+          <label>
+            Birthday
+            <br />
+            <input type="date" name="date" />
+          </label>
+
+          <br /><br />
+
+          <input type="submit" value="Log In" />
+        </form>
+      </section>
+
+      <hr />
+
+      <section>
+        <h2>Other input types</h2>
+        <form action="">
+          <label>
+            Search
+            <br />
+            <input type="search" />
+          </label>
+
           <br />
-          <input type="email" name="email" placeholder="user@email.com" />
-        </label>
 
-        <br />
-
-        <label>
-          Password
-          <br />
-          <input type="password" name="password" />
-        </label>
-
-        <br />
-
-        <label>
-          Phone Number
-          <br />
-          <input type="tel" name="phone no:" placeholder="+12 234 567 8910" />
-        </label>
-
-        <br />
-
-        <label>
-          Search
-          <br />
-          <input type="search" />
-        </label>
-
-        <br />
-
-        <label>
-          Leave a review
-          <br />
-          <textarea name="" id="" cols="30" rows="10"></textarea>
-        </label>
-
-        <br /><br />
-
-        <input type="submit" value="Log In" />
-      </form>
+          <label>
+            Leave a review
+            <br />
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+          </label>
+        </form>
+      </section>
     </main>
   </body>
 </html>
